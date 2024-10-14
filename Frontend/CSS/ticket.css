@@ -1,0 +1,169 @@
+body {
+    background: url("/Frontend/images/Background.png") no-repeat;
+    background-position: center;
+    /* background-size: 1500px 1000px; */
+    
+    background-size: cover;
+    opacity: 0.7;
+}
+.container_nav{
+    display: flex;
+}
+.mytickets{
+   
+    border: #00ffd0 3px solid;
+    border-radius: 30px;
+    font-size: 10px;
+    margin: 20px;
+   height: fit-content;
+   width: 180px;
+   padding: 5px;
+}
+
+a{
+    color: #00ffd0;
+    text-decoration: none;
+}
+
+button{
+ 
+    border-radius: 20px;   
+    /* border: 2px solid #00ffd0 ; */
+    color: #00ffc8;
+    background-color:transparent;
+    
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(0, 255, 85);
+}
+
+.nav{
+    
+    height: 20px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.content{
+    margin: 4px;
+}
+
+pre{
+    /* margin-top: 130px;
+    margin-bottom: 110px; */
+    color:  #00ffd0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.movie{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+
+.m1{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    margin: 2px;
+   
+    height: 806px;
+    width: 150px;
+    background: url("/Frontend/images/installer.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.m2{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    margin: 2px;
+    height: 806px;
+    width: 150px;
+    background: url("/Frontend/images/BDO.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.m3{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    margin: 2px;
+    height: 806px;
+    width: 150px;
+    background: url("/Frontend/images/peakpx.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.m4{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    margin: 2px;
+    height: 806px;
+    width: 150px;
+    background: url("/Frontend/images/horrer.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.m5{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    margin: 2px;
+    height: 806px;
+    width: 150px;
+    background: url("/Frontend/images/inseption.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.m1:hover {
+   
+   
+    transition: 2s;
+    width: 350px;
+    background-size: cover;
+}
+
+.m2:hover{
+    transition: 2s;
+    width: 350px;
+    background-size: cover;
+}
+
+.m3:hover{
+    transition: 2s;
+    width: 350px;
+    background-size: cover;
+}
+
+.m4:hover{
+    transition: 2s;
+    width: 350px;
+    background-size: cover;
+}
+
+.m5:hover{
+    
+    transition: 2s;
+    width: 350px;
+    background-size: cover;
+}
+

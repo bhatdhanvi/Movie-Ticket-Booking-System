@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("/Frontend/images/adrien-olichon-zyHJT71WwNU-unsplash.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.head {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    background: linear-gradient(179deg, #48C8FF 0.93%, rgba(0, 255, 179, 0.59) 114.37%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+label {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #00FCBF;
+    width: 100%;
+}
+
+.email_label, .password_label, .name_label, .phone_label {
+    border-bottom: 1px solid rgb(47, 255, 255);
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.glass-card {
+    padding: 20px;
+    background: linear-gradient(
+        to right bottom,
+        rgba(58, 50, 50, 0.4),
+        rgba(66, 60, 60, 0.2)
+    );
+    backdrop-filter: blur(10px);
+    width: 400px;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 3px solid #00FCBF;
+    border-radius: 20px;
+    background: transparent;
+    color: #00FCBF;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00FCBF;
+    color: black;
+}
+
+p {
+    margin-top: 30px;
+    color: #00FCBF;
+}
+
+a {
+    color: #00FCBF;
+    text-decoration: none;
+}
+#phone,#name,#password,#email{
+    padding: 10px;
+    text-align: center;
+}

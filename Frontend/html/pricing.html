@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie_Available</title>
+    <link rel="Stylesheet" href="/Frontend/CSS/pricing.css">
+    <link rel="icon" type="image/x-icon" href="/Frontend/images/Favicon.png">
+</head>
+<body>
+    <div class="container_nav">
+
+        <div class="mytickets">
+            <button class="button"><a style="text-decoration: none; color: #00ffd0; font-size: 30px;"  href="/Frontend/html/user.html">My Tickets</a></button>
+        </div>
+
+        <div class="nav">
+            <button class="button"><a style="text-decoration: none; color: #00ffd0; font-size: 30px;" href="/Frontend/html/ticket.html">Home</a></button>
+            <button class="button"><a style="text-decoration: none; color: #00ffd0 ;font-size: 30px;" href="/Frontend/html/pricing.html">Movie Available</a></button>
+            <button class="button"><a style="text-decoration: none; color: #00ffd0; font-size: 30px;" href="/Frontend/html/About_us.html">About Us</a></button>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="Movies">
+            <p>Interstellar</p>
+            <img src="/Frontend/images/installer.jpg" alt="" width="200px" height="200px" style="margin-left: 22%;">
+            <p>Price: 350/-</p>
+            <button id="plus" >BUY NOW</button>
+        </div>
+        <div class="Movies" style="margin-left: 5%;">
+            <p>Baby's Day Out</p>
+            <img src="/Frontend/images/BDO.png" alt="" width="200px" height="200px" style="margin-left: 22%;">
+            <p>Price: 450/-</p>
+            <button id="plus2" >BUY NOW</button>
+        </div>
+        <div class="Movies" style="margin-left: 5%;">
+            <p>A Nightmare on ELM Street</p>
+            <img src="/Frontend/images/horrer.jpg" alt="" width="200px" height="200px" style="margin-left: 22%;">
+            <p>Price: 380/-</p>
+            <button id="plus3" >BUY NOW</button>
+        </div>
+        <div class="Movies" style="margin-left: 10%;">
+            <p>Avengers</p>
+            <img src="/Frontend/images/peakpx.jpg" alt="" width="200px" height="200px" style="margin-left: 22%;">
+            <p>Price: 780/-</p>
+            <button id="plus4" >BUY NOW</button>
+        </div>
+        <div class="Movies" style="margin-left: 15%;">
+            <p>Inception</p>
+            <img src="/Frontend/images/inseption.jpg" alt="" width="200px" height="200px" style="margin-left: 22%;">
+            <p>Price: 680/-</p>
+            <button id="plus5" >BUY NOW</button>
+        </div>
+    </div>
+
+    <script> 
+        function bookTicket(movieId) {
+            fetch(`http://localhost:5500/updateTicketAndUser?movieId=${movieId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert("Ticket booked successfully!");
+                    } else {
+                        alert('Error: ${data.message}');
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    alert("An error occurred while booking the ticket.");
+                });
+        }
+
+
+        document.getElementById("plus").addEventListener("click", function() {
+            bookTicket(1);
+        });
+
+        document.getElementById("plus2").addEventListener("click", function() {
+            bookTicket(2);
+        });
+
+        document.getElementById("plus3").addEventListener("click", function() {
+            bookTicket(3);
+        });
+
+        document.getElementById("plus4").addEventListener("click", function() {
+            bookTicket(4);
+        });
+
+        document.getElementById("plus5").addEventListener("click", function() {
+            bookTicket(5);
+        });
+    </script>
+</body>
+</html>

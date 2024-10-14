@@ -1,0 +1,119 @@
+body{
+    background-image: url(/Frontend/images/Background.jpg);
+    background-size: cover;
+
+}
+
+.container_nav{
+    display: flex;
+}
+
+.nav{   
+    height: 20px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mytickets{   
+    border: #00ffd0 3px solid;
+    border-radius: 30px;
+    font-size: 10px;
+    margin: 20px;
+    height: fit-content;
+    width: 180px;
+    padding: 5px;
+}
+
+.button{
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+#main{
+    width: 1250px;
+    height: 1000px;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Movies{
+    height: 380px;
+    width: 350px;
+    border-radius: 35px;
+    border-color: #00ffd0;
+    border-style: solid;
+    color:#00ffd0;
+    font-size: 20px;
+
+
+}
+
+p{
+    display: grid;
+    justify-content: center;
+}
+
+#plus{
+    margin-left: 40%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}
+
+
+#plus2{
+    margin-left: 40%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}
+
+
+#plus3{
+    margin-left: 40%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}
+
+
+#plus4{
+    margin-left: 40%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}
+
+
+#plus5{
+    margin-left: 40%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}

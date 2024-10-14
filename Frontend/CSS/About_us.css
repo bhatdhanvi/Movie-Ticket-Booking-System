@@ -1,0 +1,64 @@
+.container_nav{
+    display: flex;
+}
+.nav{   
+    height: 20px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mytickets{   
+    border: #00ffd0 3px solid;
+    border-radius: 30px;
+    font-size: 10px;
+    margin: 20px;
+    height: fit-content;
+    width: 180px;
+    padding: 5px;
+}
+.button{
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+h1{
+    color: #48C8FF;
+}
+
+#about-us{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.div{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.p{
+    color: #00ffd0;
+    font-size: 25px;
+}
+
+.div1{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.div2{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.div3{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+

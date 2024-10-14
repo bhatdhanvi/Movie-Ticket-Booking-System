@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="/Frontend/CSS/sign_up.css">
+    <link rel="icon" type="image/x-icon" href="/Frontend/images/Favicon.png">
+</head>
+
+<body>
+    <!-- <img class="backimg" src="./images/adrien-olichon-zyHJT71WwNU-unsplash.png" alt=""> -->
+    <div class="glass-card">
+        <div class="head">
+            <h1>SIGN IN</h1>
+        </div>
+        <br>
+        <div>
+            <form action="/sign_up" method="post">
+                <div class="name_label">
+                    <label for="name">ENTER FULL NAME</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="phone_label">
+                    <label for="phone">ENTER PHONE NUMBER</label>
+                    <input type="text" name="phone" id="phone" pattern="[0-9]{10}" maxlength="10" required>
+                </div>
+                <div class="email_label">
+                <label for="email">ENTER EMAIL</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="password_label">
+                <label for="password">ENTER PASSWORD</label>
+                <input type="password" name="password" id="password" maxlength="6" required >
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit" ><a style="text-decoration: none;" href="/Frontend/html/user.html" required>sign in</a></button>
+          </div>
+            
+        </form>
+    </div>
+</body>
+</html>

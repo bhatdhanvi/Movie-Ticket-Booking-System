@@ -1,0 +1,49 @@
+body{
+    background-image: url(/Frontend/images/Background.jpg);
+    background-size: cover;
+
+}
+
+
+.div{
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #00ffd0;
+    margin-top: 15%;
+    justify-content: center;
+}
+
+p{
+    display: grid;
+    justify-content: center;
+    color: #00ffd0;
+}
+
+#plus{
+    margin-left: 43%;
+    border: #00ffd0 2px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: red;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+}
+
+.mytickets{   
+    border: #00ffd0 3px solid;
+    border-radius: 30px;
+    font-size: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.button{
+    background-color: transparent;
+    border-radius: 30px;
+}

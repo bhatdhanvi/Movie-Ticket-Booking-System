@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Movies</title>
+    <link rel="Stylesheet" href="/Frontend/CSS/ticket.css">
+    <link rel="icon" type="image/x-icon" href="/Frontend/images/Favicon.png">
+</head>
+<body>
+    <div class="container_nav">
+
+        <div class="mytickets">
+            <button ><a style="text-decoration: none;"  href="/Frontend/html/user.html">My Tickets</a></button>
+        </div>
+
+        <div class="nav">
+            <button ><a style="text-decoration: none;" href="/Frontend/html/ticket.html">Home</a></button>
+            <button ><a style="text-decoration: none;" href="/Frontend/html/pricing.html">Movie Available</a></button>
+            <button ><a style="text-decoration: none;" href="/Frontend/html/About_us.html">About Us</a></button>
+        </div>
+    </div>
+    <!-- <div class="content">
+        <pre>            Wanna Have Fun? Check
+                    Out These!
+        </pre> -->
+    <!-- </div> -->
+    <div class="movie">
+        <div class="m1">
+            <button id="plus"><a href="/Frontend/html/Intersellar.html" style="text-decoration: none;">
+                +
+                </a>
+            </button>
+            <!-- <button class="plus">add</button>
+
+            </div>
+            <div class="minus">
+                
+            </div> -->
+            <!-- <img class='image' src='installer.jpg' alt="Interstellar" title="Interstellar" > -->
+        </div>
+        <div class="m2">
+            <button id="plus2"><a href="/Frontend/html/BDO.html" style="text-decoration: none;">
+                +
+                </a>
+            </button>
+            <!-- <img class='image' src='BDO.png' alt="Baby's Day Out" title="Baby's Day Out"> -->
+        </div>
+        <div class="m3">
+            <button id="plus3"><a href="/Frontend/html/Avengers.html" style="text-decoration: none;">
+                +
+                </a>
+            </button>
+            <!-- <img class='image' src='horrer.jpg' alt="A Nightmare on ELM Street" title="A Nightmare on ELM Street"> -->
+        </div>
+            <!-- <br> -->
+        <div class="m4">
+            <button id="plus4"><a href="/Frontend/html/nightmare.html" style="text-decoration: none;">
+                +
+                </a>
+            </button>
+            <!-- <img class='image' src='inseption.jpg' alt="Inception" title="Inception"> -->
+        </div>
+        <div class="m5">
+            <button id="plus5"><a href="/Frontend/html/Inception.html" style="text-decoration: none;">
+                +
+                </a>
+
+            </button>
+            <!-- <img class='image' src='peakpx.jpg' alt="The Avengers" title="The Avengers">  -->
+        </div>
+    </div> 
+</body>
+
+<script>
+    document.getElementById("plus").addEventListener("click", function() {
+        // When the button is clicked, set a localStorage variable to indicate that the button was clicked
+        localStorage.setItem("showDiv1", "true");
+
+        // Redirect to the home.html page
+        // window.location.href = "D:/DBMS_project/web_/front-end/user/user.html";
+    });
+    document.getElementById("plus2").addEventListener("click", function() {
+        // When the button is clicked, set a localStorage variable to indicate that the button was clicked
+        localStorage.setItem("showDiv2", "true");
+
+        // Redirect to the home.html page
+        // window.location.href = "D:/DBMS_project/web_/front-end/user/user.html";
+    });
+    document.getElementById("plus3").addEventListener("click", function() {
+        // When the button is clicked, set a localStorage variable to indicate that the button was clicked
+        localStorage.setItem("showDiv3", "true");
+
+        // Redirect to the home.html page
+        // window.location.href = "D:/DBMS_project/web_/front-end/user/user.html";
+    });
+    document.getElementById("plus4").addEventListener("click", function() {
+        // When the button is clicked, set a localStorage variable to indicate that the button was clicked
+        localStorage.setItem("showDiv4", "true");
+
+        // Redirect to the home.html page
+        // window.location.href = "D:/DBMS_project/web_/front-end/user/user.html";
+    });
+    document.getElementById("plus5").addEventListener("click", function() {
+        // When the button is clicked, set a localStorage variable to indicate that the button was clicked
+        localStorage.setItem("showDiv5", "true");
+
+        // Redirect to the home.html page
+        // window.location.href = "D:/DBMS_project/web_/front-end/user/user.html";
+    });
+</script>
+</html>
